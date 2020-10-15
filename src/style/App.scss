@@ -813,7 +813,7 @@ body {
         }
 
     }
-    .headerLink  {        
+    .headerLink  {  
         margin-left:0%; 
 
         &__link {
@@ -1100,7 +1100,7 @@ body {
      }
 
      .admin {
-        height: 25vh;
+        height: auto;
 
         &__text {
             text-align: center;
@@ -1111,6 +1111,8 @@ body {
 
     .headerLink {
         margin-left: 0%;
+        padding-bottom: 1%; 
+
         text-align: center;
         
         &__link {
