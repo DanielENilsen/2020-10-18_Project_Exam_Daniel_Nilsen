@@ -1,0 +1,1293 @@
+$FooterColor: #AEAEAE;
+$YellowButtoNCOlor: #FF9100;
+$BlueColor:#5898C3;
+$InfoDisplayColor:#E4E4E4;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Open+Sans&family=Roboto+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap');
+body { 
+    margin:0px;
+    padding:0px;
+    background-image: url("../stripes-light/stripes-light/stripes-light.png");
+}
+
+.displayCards { 
+    margin-top: 10%;
+    
+}
+.cards {
+    background-color:#1e2124;
+    color:$YellowButtoNCOlor;
+    margin-left:5%;        
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    height: auto;
+    width: 95%;
+    margin:3%;
+
+    &__icons { 
+        margin-top:10%;
+        margin-left:40%;
+        font-size: 3em;
+    }
+
+    &__text { 
+        margin-top:1%;
+        width: 100%;        
+        font-family: 'Open Sans', sans-serif;    
+        padding-bottom: 5%;
+    }
+
+    &__check {
+        color:rgb(0, 109, 9);
+    }
+    &__lock { 
+        color:$YellowButtoNCOlor;
+    }
+    &__shield { 
+        color:rgba(27, 54, 97, 0.637);
+    }
+
+    &__header { 
+        font-family: 'Cinzel', serif;
+        margin-top:5%;
+        font-size:4vh;        
+    }
+}
+
+
+.imageIcon {
+    margin-top:1%;
+    margin-left:1%;
+
+    &__image {
+        width: 12%;
+    }    
+}
+
+.heroSection {
+ 
+    background-image: url("../img/pexels-pixabay-271624.jpg");
+    width: 100%;
+    height: 55vh;
+    background-position: 50% 51%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.heroText {
+    margin-top:5%;
+    display: inline-block;
+    color:white;
+    font-family: 'Baloo Chettan 2', cursive;   
+
+    &__text {
+        margin-top:4%;
+        padding:0.6em;
+        font-size:1em;
+        color:$YellowButtoNCOlor;
+    }
+    
+}
+
+
+
+.search {
+  
+    height: auto;
+    margin-top:3vh;
+    margin-left:0%;
+    width: 95%; 
+
+    input {
+        height: 5vh;
+    }  
+
+    &__input {      
+        margin:1em; 
+        width: 80%;   
+    }  
+    
+    &__li { 
+        width: 90%;
+        margin-left: 5%;  
+        -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);          
+          
+    }
+    a {
+        font-size:1.3em;
+        color: #FF9100;
+    }
+
+    
+  
+}
+.viewMore {
+    margin-top: 15%;
+
+    &__form {
+        padding-top: 5%;
+    }
+
+    &__input {
+        margin-left: 8%;
+        width: 85%;
+    }
+}
+
+
+
+.navbarinner { 
+
+    &__image{
+        max-width:100px; 
+        margin-top: -7px;
+    }
+    span {
+        color:red;
+    }
+    
+
+}
+
+.loginForm {   
+    animation: animatationnOne 2s;
+
+    height: auto;
+ 
+
+    &__header {
+        padding-top:10%;
+        text-align: center;
+    }
+    
+    &__input {
+        margin-left:10vw;
+        width: 80%;
+        margin-top:5%;
+    }
+
+    &__input--Two {
+        margin-left:10vw;      
+        width: 80%;
+        margin-top: 5%;
+    }
+    &__label { 
+        display: none;
+    }    
+    &__submit {
+        font-size:1.3em;
+        height: 15%;
+        width: 80%;
+        margin-left:10vw;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        background-color: $YellowButtoNCOlor;
+        color:white;
+        border: none;
+    }
+    &__submit:hover {
+        background-color: $YellowButtoNCOlor;
+
+    }
+}
+
+.deleteMessage { 
+    background-color: #1e2124;
+    border-color:none;
+
+    &:hover {
+        background-color: #1e2124;
+        color:rgb(250, 194, 11);
+
+    }
+
+    
+
+}
+
+.logoutButton {
+  
+    background-color: #1e2124;
+    border:none;
+    
+    color:#ffffff;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.adminForm { 
+    margin-top:10%;
+}
+
+.admin {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    height: 20vh;
+    font-family: 'Baloo Chettan 2', cursive;
+    
+    &__text {
+        margin: 5%;      
+        font-size:10vw;
+        color: $YellowButtoNCOlor;
+    }
+
+}
+
+.boostrapviewMore {   
+    width: 95%;
+    background-color: white;
+    height: auto ;
+    margin-left: 3%;
+    margin-top:5%;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    margin-bottom: 10%;
+    
+}
+
+@keyframes animatationnOne {
+    from {
+        opacity: 0;
+    }
+    to { 
+        opacity: 1;
+    }
+}
+
+
+.boxGridHotels  {
+    padding-left:3%;
+    margin-top:4%;
+    margin-bottom: 100px;
+    object-fit: cover; 
+    animation: animatationnOne 2s;
+
+    &__image {            
+        height: 30vh;  
+        object-fit: cover;      
+    }
+
+    &__header {
+        text-align: center;
+        margin-top: 10px;
+        font-family: 'Cinzel', serif;
+        background-color:#1e2124;
+        color:$YellowButtoNCOlor;
+        padding: 0.6em;
+        
+    }
+
+    &__text { 
+        text-align: center;
+        font-family: 'Piazzolla', serif;
+        margin: 12%;
+    }
+
+    &__link {
+        background-color: #FF9100;
+        color:white;
+        font-weight: bold;
+        text-align: center;        
+        width: 90%;
+        padding:1em;       
+        margin-bottom: 5%;
+        margin-left:5%;
+
+        
+    }    
+
+}
+
+.hotelSpec {   
+    margin-top:10%;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    margin-left:5%;        
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+       
+    
+    &__headerText  {        
+        text-align: center;   
+        font-family: 'Cinzel', serif;        
+        background-color:#1e2124;
+        color:$YellowButtoNCOlor;
+        padding: 0.6em;
+    }  
+    
+    &__image { 
+        width: 100%;
+        
+
+        object-fit:cover ;        
+    }
+
+    &__text { 
+        margin-left: 5%;
+        width:90%;
+    }
+
+    &__info {
+        font-size: 0.9em;
+        margin-left: 7%;
+        padding-bottom: 3%;
+        font-weight: 400;     
+    }
+
+    &__email {
+        padding-bottom: 5%;
+        margin-left: 3.5%;
+    }
+
+    &__span {
+        font-family: 'Cinzel', serif;
+
+        color:$YellowButtoNCOlor;
+        font-weight: 500;
+    }
+
+}
+
+.headerLink  { 
+    margin-top: 10%; 
+
+    &__link {
+        font-family: 'Baloo Chettan 2', cursive;   
+        font-family: 'Cinzel', serif;
+        padding:0.5em;
+        border-radius: 10px 10px;
+        background-color: #1e2124;
+        margin-left:3%;
+        color: $YellowButtoNCOlor;
+        font-size:90%;
+    } 
+  
+}
+
+.listName {
+    height:  auto;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    object-fit: contain;
+    margin-top: 15%;    
+
+    &__likey {
+        margin-left:15%;
+        font-size:3em;
+        font-size:2em;
+    }             
+        
+
+}
+
+
+
+.listApp {
+    margin-top:25%;
+    padding-top: 8%;    
+    width: 90%;
+    margin-bottom: 10%;
+    padding-bottom: 3%;
+    margin-left: 6%;
+
+    &__list { 
+        margin-left: 5%;
+        width: 90%;
+    }
+    
+    a {
+        color:$YellowButtoNCOlor;
+        font-size:1em;
+        font-weight: bold;
+    }
+}
+
+.heroText {
+    margin-top:70%;  
+
+    &__text {
+        font-size:1.15em;
+        padding-top:10%;
+    }
+    
+}
+
+.edithForm {
+    margin:1em;
+    height:  auto;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);   
+    margin-top: 15%;    
+    width: 90%;
+
+
+    &__header { 
+        color:$YellowButtoNCOlor;
+         padding-top: 10%;      
+        margin-left: 20%;
+        font-size:2em;
+       
+        
+    }
+    &__label  {
+        margin-left: 10%;
+    }
+
+    &__input {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    &__textArea {
+        margin-left: 10%;
+        width: 80%;     
+        height: 50%;
+    }  
+
+
+    &__button { 
+        margin-top:5%;
+        margin-left: 15%;
+        background-color: #1e2124;
+        color:$YellowButtoNCOlor;
+        border-color:none;
+        margin-bottom: 10%;
+
+    }
+    &__button:hover { 
+        
+        background-color: #1e2124;
+        
+     
+
+    }
+}
+
+.innerBox { 
+    height: auto;    
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75); 
+    width: 80%;
+    margin-left: 10%;   
+
+}
+
+.meassageHotel {    
+    margin-top: 15%;
+    width: 90%;
+    margin-left: 5%;
+    padding-top:10px;
+    padding-bottom: 5%;
+
+    &__header { 
+        color:$YellowButtoNCOlor;
+        font-size: 2em;
+        
+
+    }
+    
+     &__box {
+        
+        margin-top: 3%;
+        -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75); 
+    
+
+    }
+
+
+   
+
+}
+
+
+
+.textArea{
+    height: 100px;
+}
+
+
+.hotelCardSpec { 
+    width: 80%;
+
+
+    &__firstCol {
+        margin-top: 5%;         
+    }
+
+    &__seconCol {
+        background-color:#1e2124;
+        margin: 2em;
+        color:$YellowButtoNCOlor;
+        font-size:1em;     
+
+    }
+    &__info {
+        margin-left: 10%;
+        margin-bottom: 12%;
+        font-size: 1em;
+        font-family: 'Cinzel', serif;
+        
+
+    }
+
+   
+    &__headerText  {
+        color:#FF9100;
+        margin-top:4%;
+        text-align: center;        
+        font-family: 'Cinzel', serif;
+    }  
+    &__description {
+        font-family: 'Piazzolla', serif;
+        text-align: center; 
+       
+    }
+
+    &__link {              
+        background-color: #FF9100;
+        color:white;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 10%;       
+        padding:1em;       
+        margin-bottom: 5%;
+        border-radius: 10px 10px;   
+    }
+
+    &__inner {
+        margin-bottom: 10%;
+    }
+}
+
+.addNewHOtel { 
+    margin-top:30%;
+    padding-top:5%;
+    height: auto;
+    animation: animatationnOne 1s;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+
+    &__text {
+        font-family: 'Cinzel', serif;
+        color:#FF9100;
+        padding:1.5em;
+        font-size: 1em;
+    }
+
+    &__input { 
+        width: 95%;
+        height: 10%;
+        margin-top:1em;
+        padding-top:1em;
+        margin-left: 3%;
+    }
+    &__textbox {
+        margin-left: 3%;
+        width: 95%;
+        margin-top: 5%;
+        padding-bottom: 10%;
+        
+    }
+    &__submit { 
+        margin-left: 3%;
+        margin-top:1em;
+        padding:1.4em;
+        width: 95%;
+        font-size:1.1em;
+        margin-bottom: 5%;
+        font-weight: bold;
+        
+    }
+    
+  
+}
+
+
+
+
+@media (orientation: landscape) {
+
+    .boxGridHotels  {
+        &__image {            
+            height: 80vh;  
+            object-fit: cover;      
+        }
+    }
+    
+
+    .admin {
+        height: 55vh;
+    }
+
+    .headerLink {
+        margin-left: 20%;
+    }
+
+    
+    .loginForm {
+        height: auto;
+        
+        &__input {   
+            font-size:1.5em;    
+            height: 3em;
+        }
+    
+        &__input--Two {
+            font-size:1.5em;   
+            height: 3em;
+        }
+        margin-bottom: 100px;
+
+       
+    }
+
+    
+    .search {
+        margin-left:5%;
+        margin-top:0vh;    
+        width: 90%; 
+
+        input {
+            height: 10vh;
+        }  
+
+        &__input {      
+            margin:1em; 
+            width: 90%;   
+        }   
+
+        
+    
+    }
+
+    .cards {      
+    
+    
+        &__icons { 
+            font-size: 8em;           
+        }    
+        &__text {   
+            font-size:1.3em;             
+            margin-top:1%;
+            margin-left:10%;
+            width: 90%;               
+        }       
+        &__header {
+            font-size:2.5em;              
+            margin-left:25%;         
+        }
+    }
+
+    .hotelSpec {   
+       
+        
+        &__headerText  {        
+            text-align: center;
+            margin: 0.5em;
+            font-family: 'Cinzel', serif;
+        }  
+        
+        &__image { 
+            width: 100%;
+            object-fit: cover;
+            
+        }
+    
+        &__text { 
+            margin-left: 5%;
+            width:90%;
+    
+        }
+    
+        &__info {
+            font-size: 0.9em;
+            margin-left: 7%;
+            padding-bottom: 3%;
+            font-weight: 400;     
+        }
+    
+        &__email {
+            padding-bottom: 5%;       
+            margin-left: 5%;
+        }
+    }
+
+
+
+    .addNewHOtel { 
+        margin-bottom: 10%;
+
+        &__text {            
+            font-size: 2.3em;
+        }
+        
+        &__input {            
+            height: 5em;
+            font-size:1.5em;          
+        }
+
+        &__submit {
+            font-size:1.5em;
+        }
+    }  
+    .heroText { 
+
+        &__text { 
+            text-align: center;
+            font-size: 1.7em;
+
+
+        }
+    }
+    
+    
+    .headerLink  {       
+       
+    
+        &__link {
+            font-family: 'Baloo Chettan 2', cursive;   
+            font-family: 'Cinzel', serif;
+            padding:0.5em;
+            border-radius: 10px 10px;
+            background-color: #1e2124;
+            margin-left:3%;
+            color: $YellowButtoNCOlor;
+            font-size:90%;
+        } 
+      
+    }
+
+    .heroSection {    
+        height: 50vh;       
+    }
+    
+    .heroText {
+        margin-top:15%;     
+   
+        &__text {
+            margin-top:4%;
+        }
+        
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 320px) {
+
+        
+    .admin {
+        height: 20vh;
+        font-family: 'Baloo Chettan 2', cursive;
+
+
+        &__text {
+            margin-left:8%;      
+            font-size:10vw;
+        }
+
+    }
+    .headerLink  {        
+        margin-left:0%; 
+
+        &__link {
+          
+            padding:0.3em;
+            
+        }    
+      
+    }
+    .hotelSpec { 
+        &__headerText { 
+            font-size: 2em;
+            padding: 0.6em;
+
+        }
+        &__info {
+            font-size:0.8em;             
+        }
+    }  
+    .formCLa { 
+        margin-bottom: 100px;
+    }
+
+    .heroText { 
+        &__text { 
+            text-align: center;
+            font-size: 1em;
+        }
+    }    
+}
+
+@media only screen and (min-width: 768px) {
+
+    .headerLink  { 
+        margin-top: 5%;
+        margin-left:15%;
+    
+        &__link {
+            font-family: 'Baloo Chettan 2', cursive;   
+            font-family: 'Cinzel', serif;
+            padding:1em;
+            border-radius: 10px 10px;
+            background-color: #1e2124;
+            margin-left:3%;
+            color: $YellowButtoNCOlor;
+            font-size:120%;
+        } 
+    }
+
+    .hotelSpec {        
+
+        font-size:1.4em; 
+        
+        &__email {
+            padding-bottom: 5%;
+            margin-left: 5%;
+        }
+        &__info {
+            font-size:1em;             
+        }
+    }
+
+    .formCLa { 
+        margin-left: 20%;
+
+    }
+
+    .heroText {
+        height: 100px;
+        margin-top: 50%;
+
+        &__text {
+            font-size: 1.5em;
+            font-family: 'Cinzel', serif;
+            text-align: center;
+        }
+    }
+    .search {
+        margin-top: 1%;
+    }
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    
+    .innerBox { 
+        height: auto;
+        width: 70%;
+        margin-left: 15%;     
+    }
+
+
+    .boxGridHotels  {
+        padding-left:3%;
+        margin-top:4%;
+        margin-bottom: 100px;
+        object-fit: cover; 
+        animation: animatationnOne 2s;     
+
+        &__image {            
+            height: 20vh;
+            object-fit: cover;
+            
+        }
+    
+        &__header {            
+            padding: 0.6em;
+                        
+        }
+    
+        &__text {     
+            height: auto;
+            max-height: 250px;       
+            margin: 5%;            
+        }
+
+        &__link {
+            padding:1em;       
+            margin-bottom: 5%;
+            margin-left:5%;
+            height: auto;
+            max-height: 250px
+             
+        }   
+    }
+
+    .hotelSpec {   
+        margin-top:5%;
+        margin-left: 30vw;
+        width: 36%;   
+        height: auto;   
+        margin-bottom: 100px; 
+
+        &__headerText  {        
+            margin: 0em;
+            font-size:1.5em;
+            margin-bottom: 5%;            
+        }  
+        
+        &__image {             
+            width: 600px;
+            height: 400px;
+            object-fit: cover;          
+             
+        }
+    
+        &__text { 
+            margin-left: 5%;
+            width:90%;
+            font-size:1em;
+            padding-bottom: 3%;
+        }
+    
+        &__info {
+            font-size:1.1em;
+            margin-left: 6%;
+            padding-bottom: 3%;
+               
+        }
+    
+        &__email {
+            padding-bottom: 6%;
+            margin-left: 4%;
+        }
+    
+        &__span {
+            font-family: 'Cinzel', serif;
+    
+            color:$YellowButtoNCOlor;
+            font-weight: 500;
+        }
+    
+    }
+
+    .formCLa { 
+        margin-top: 10%;
+        margin-left: 34%;
+    }
+
+    .heroSection {    
+
+        height: 50vh;
+        width: 100vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .heroText {
+        color: $YellowButtoNCOlor;        
+        height: 30%;
+        width: 50%;
+    
+        &__text {
+            padding:0.12em;
+            margin-left: 5%;
+            font-size:3.5em;
+        }        
+    }
+    
+    
+    .search {   
+            
+        background-color:none;          
+        margin-top:1vh;
+        margin-left:5%;
+        width: 90%;
+        padding-bottom: 3%; 
+        
+        
+    
+        input {
+            height: 5vh;
+        }  
+
+    
+        &__input {   
+              
+            margin-top:0%;
+            margin-left: 1%;            
+            width: 90%;  
+        }   
+
+        &__li {
+            margin-left: 1.5%;
+        }
+    }
+    .heroText {
+        margin-left: 25%;        
+        margin-top:11%;     
+   
+        &__text {
+            margin-top:4%;
+        }
+        
+    }
+
+    .logoutButton {
+        background-color: #ffffff00;
+        border:none;
+        color:black;
+    
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .addNewHOtel { 
+        margin-top:25%; 
+                  
+        &__text { 
+            text-align: center;        
+            padding:1.5em;
+            font-size: 200%;
+            margin-left: 0%;
+        }
+    
+        &__input {
+            margin-top: 3%;
+            width: 80%;
+            margin-left:10%;           
+            height: 1%;     
+            font-size:1.5em      
+        }
+        &__textbox {
+            margin-left:10%; 
+            width: 80%;
+            margin-top: 5%;
+            padding-bottom: 10%;
+            
+        }
+        &__submit { 
+            margin-left: 10%;
+            margin-top:1em;
+            padding:1.4em;
+            width: 80%;
+            font-size:1.1em;
+            margin-bottom: 5%;
+            font-weight: bold;
+            
+        }       
+     }
+
+     .admin {
+        height: 25vh;
+
+        &__text {
+            text-align: center;
+            font-size:5em;
+        }
+        
+    }
+
+    .headerLink {
+        margin-left: 0%;
+        text-align: center;
+        
+        &__link {
+            font-family: 'Cinzel', serif;
+            padding:0.1em;
+            background-color: #ffffff;
+            margin-left:3%;
+            color: black;
+            font-size:160%;
+        }
+        &__link:hover { 
+            color:black;
+            text-decoration: underline #FF9100; 
+        }
+
+    }
+
+
+    .listApp { 
+        font-size: 2em;
+        margin-top: 5%;
+      
+    }
+
+    .meassageHotel {   
+        margin-top: 5%;
+        &__inner   {
+            font-size: 1.5em;            
+
+        }
+       
+
+        &__header { 
+            color:$YellowButtoNCOlor;
+            font-size: 2em;
+            
+
+        }
+
+        &__email { 
+            font-size: 1.1em;
+
+        }
+    }
+
+    .edithForm {
+        margin-top: 5%;    
+        width: 70%;
+        margin-left: 15%;    
+    
+        &__header { 
+            color:$YellowButtoNCOlor;
+
+            padding-top: 3%;      
+            margin-left: 0%;
+            text-align: center;
+            font-size:5em;
+           
+            
+        }
+        &__label  {
+            margin-left: 10.5%;
+            font-size:1.1em;
+        }
+    
+        &__input {           
+            height: 4em;
+            width: 80%;
+        }
+    
+        &__textArea {
+            margin-left: 10%;
+            width: 80%;     
+            height: 50%;
+        }  
+
+        &__button { 
+            margin-top:5%;
+            margin-left: 10%;
+            background-color: #1e2124;
+            color:$YellowButtoNCOlor;
+            border-color:none;
+            margin-bottom: 10%;    
+            height:3em;
+            width: 5em;
+            font-size:  1.2em;
+        }
+
+        &__group {
+            margin-top: 4%;
+            margin-left: 67%;
+            padding-bottom: 5%;
+        }
+
+    }
+    .loginForm { 
+
+        &__submit { 
+            width: 40%; 
+            margin-left:40%;
+            background-color: #FF9100;
+            color: #ffffff;
+            border: none;
+        }
+        &__submit:hover {
+            background-color:$YellowButtoNCOlor;
+
+        }
+
+    }
+
+    .cards {
+        background-color:$InfoDisplayColor;
+        color:black;
+        margin-left:0%;        
+        -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+        height: auto;
+        width: 55%;
+        margin:3%;
+    
+        &__icons { 
+            margin-top:10%;
+            margin-left:40%;
+            font-size: 5em;
+        }
+    
+        &__text { 
+            margin-top:1%;
+            width: 100%;        
+            font-family: 'Open Sans', sans-serif;    
+            padding-bottom: 5%;
+            margin-left: 1%;
+        }
+    
+        &__check {
+            color:rgb(0, 109, 9);
+        }
+        &__lock { 
+            color:$YellowButtoNCOlor;
+        }
+        &__shield { 
+            color:rgba(27, 54, 97, 0.637);
+        }
+    
+        &__header { 
+            font-family: 'Cinzel', serif;
+            margin-top:5%;
+            font-size:4vh;        
+        }
+    }
+    
+
+    .displayCards { 
+        margin-top: 1%;
+        margin-left: 1%;
+        
+    }
+
+    .edithImage { 
+        height: 80%;
+    }
+
+    .innerBox_frontPage {  
+        width: 70%;        
+        color: $YellowButtoNCOlor;
+        height: auto;
+        h1 {
+            text-align: center;
+            padding-top: 1%; 
+            font-family: 'Cinzel', serif;
+            font-size:2.5em;
+          
+        }
+     
+    }
+
+  
+}
